@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">قضيتى</string>
+    <string name="user_select">تحديد المستخدم</string>
+    <string name="court">محكمة</string> />
+    <string name="lawyer">محامى</string>
+    <string name="continu">متابعة</string>
+</resources>

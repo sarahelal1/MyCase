@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Case</string>
+    <string name="user_select">User Select</string>
+    <string name="court">Court</string>
+    <string name="lawyer">Lawyer</string>
+    <string name="continu">Continue</string>
+
+    />
+</resources>
