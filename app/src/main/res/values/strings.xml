@@ -4,6 +4,7 @@
     <string name="court">Court</string>
     <string name="lawyer">Lawyer</string>
     <string name="continu">Continue</string>
+
     <string name="sign_in">SignIn</string>
     <string name="btn_sign">BtnSign</string>
     <string name="email">Email</string>
@@ -49,6 +50,18 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+=======
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="back" translatable="false">back</string>
+    <string name="case_x" translatable="false">قضية س</string>
+    <string name="no_updates" translatable="false">لا يوجد تحديث</string>
+    <string name="clients" translatable="false">الموكلون</string>
+    <string name="add_new_client" translatable="false">add new client</string>
+    <string name="details" translatable="false">التفاصيل</string>
+    <string name="requests" translatable="false">الطلبات</string>
+>>>>>>> origin/master
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
