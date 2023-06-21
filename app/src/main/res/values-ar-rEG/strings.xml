@@ -5,7 +5,43 @@
     <string name="user_select">تحديد المستخدم</string>
     <string name="court">محكمة</string> />
     <string name="lawyer">محامى</string>
-    <string name="continu">متابعة</string>
+    <string name="sending">جاري الإرسال</string>
+    <string name="show_more">عرض التفاصيل</string>
+    <string name="request_no_123456">طلب رقم 123456</string>
+    <string name="paid_requests">الطلبات المدفوعة</string>
+    <string name="payments">المدفوعات</string>
+    <string name="pay_request">دفع طلب</string>
+    <string name="enter_request_number">أدخل رقم الطلب:</string>
+    <string name="_123456">123456</string>
+    <string name="the_amount_of_the_fee">مقدار الرسوم:</string>
+    <string name="egyptian_pound">جنيهًا مصريًا</string>
+    <string name="_300">300</string>
+    <string name="back">السابق</string>
+    <string name="next">التالي</string>
+    <string name="select_payment_method">اختر وسيلة الدفع:</string>
+    <string name="bank_card">بطاقة بنكية</string>
+    <string name="money_wallet">محفظة الكترونية</string>
+    <string name="add_bank_card">أدخل بيانات البطاقة لاستكمال عملية الدفع:</string>
+    <string name="enter_name">اسم حامل البطاقة</string>
+    <string name="enter_number">رقم البطاقة</string>
+    <string name="enter_month">شهر الانتهاء</string>
+    <string name="enter_year">سنة الانتهاء</string>
+    <string name="enter_cvv_num">رمز الحماية CVV</string>
+    <string name="confirm">تأكيد الدفع</string>
+    <string name="enter_otp_number"> برجاء إدخال كود ال OTP  المرسل في SMS:</string>
+    <string name="_0">0</string>
+    <string name="resend">إعادة إرسال</string>
+    <string name="enter">إدخال</string>
+    <string name="add_number">أدخل رقم الموبايل أو رمزك التعريفي:</string>
+    <string name="phone_number">رقم الموبايل/رمز التعريف</string>
+    <string name="the_request_has_been_successfully_paid">تم سداد قيمة الطلب بنجاح</string>
+    <string name="please_keep_a_copy_of_the_receipt">الرجاء الاحتفاظ بصورة الإيصال</string>
+    <string name="receipt_of_payment">إيصال سداد الطلب</string>
+    <string name="request_number">رقم الطلب:</string>
+    <string name="date">تاريخ إنشاء الطلب:</string>
+    <string name="send">إرسال</string>
+    <string name="payment_completed_successfully">تم الدفع بنجاح</string>
+
     <string name="sign_in">تسجيل الدخول</string>
     <string name="btn_sign">تسجيل الدخول</string>
     <string name="email">البريد الألكترونى</string>
@@ -36,7 +72,6 @@
     <string name="txt_reset">تم ارسال البريد الخاص بإعادة تعيين كلمة المرور</string>
     <string name="btn_set">تعيين كلمة المرور</string>
     <string name="dont_receive_mail">لم تستلم بريد الكترونى؟</string>
-    <string name="resend">اعادة الإرسال</string>
     <string name="pass_reset">كلمة المرور الجديدة</string>
     <string name="pass_reset_conf">تأكيد كلمة المرور</string>
     <string name="txt_insert_pass">من فضلك,قم بإدخال كلمة المرور</string>
@@ -119,6 +154,9 @@
     <string name="opponent_address">عنوانه</string>
     <string name="opponent_info">صفته</string>
     <string name="select_files">اختر الملفات</string>
-    <string name="case_details">case details</string>
+    <string name="case_details">تفاصيل القضية</string>
+    <string name="payer_name">اسم الدافع:</string>
+
+
 
 </resources>

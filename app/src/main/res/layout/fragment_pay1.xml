@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".pay1Fragment">
+
+    <TextView
+        android:id="@+id/text_pay1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.13"
+        android:background="@drawable/top"
+        android:gravity="center_vertical"
+        android:text="@string/pay_request"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        android:padding="@dimen/_15sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:padding="@dimen/_8sdp"
+        android:foregroundGravity="center_vertical"
+        android:src="@drawable/baseline_arrow_back_ios_24"
+        app:layout_constraintBottom_toBottomOf="@+id/text_pay1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/text_pay1" />
+    <TextView
+        android:id="@+id/text_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_pay1"
+        app:layout_constraintStart_toStartOf="@id/text_pay1"
+        android:padding="8dp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        android:text="@string/enter_request_number"
+        />
+    <EditText
+        android:id="@+id/ed_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_enter"
+        app:layout_constraintStart_toStartOf="@id/text_enter"
+        android:padding="@dimen/_5sdp"
+        android:layout_margin="10dp"
+        android:textSize="@dimen/_20ssp"
+        android:background="@drawable/bkedit"
+        android:inputType="number"
+        android:hint="@string/_123456"
+        />
+    <TextView
+        android:id="@+id/text_enter_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ed_no"
+        app:layout_constraintStart_toStartOf="@id/ed_no"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        android:text="@string/the_amount_of_the_fee"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_enter_no"
+        app:layout_constraintStart_toStartOf="@id/text_enter_no"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@drawable/bkedit"
+            android:textSize="@dimen/_20ssp"
+            android:layout_weight="2"
+            android:inputType="number"
+            android:hint="@string/_300"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/egyptian_pound"
+            android:textSize="@dimen/_18ssp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            app:cornerRadius="15dp"
+            android:elevation="5dp"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_18ssp"
+            android:paddingVertical="@dimen/_8sdp"
+            android:layout_margin="@dimen/_10sdp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            app:cornerRadius="15dp"
+            android:elevation="5dp"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_18ssp"
+            android:paddingVertical="@dimen/_8sdp"
+            android:layout_margin="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
