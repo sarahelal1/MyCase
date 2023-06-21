@@ -1,8 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">My Case</string>
     <string name="user_select">User Select</string>
     <string name="court">Court</string>
     <string name="lawyer">Lawyer</string>
+    <string name="sending">sending</string>
+    <string name="show_more">show_more</string>
+    <string name="request_no_123456">request_no_123456</string>
+    <string name="paid_requests">paid_requests</string>
+    <string name="payments">payments</string>
+    <string name="pay_request">pay_request</string>
+    <string name="enter_request_number">enter_request_number</string>
+    <string name="_123456">123456</string>
+    <string name="the_amount_of_the_fee">the_amount_of_the_fee</string>
+    <string name="egyptian_pound">egyptian_pound</string>
+    <string name="_300">300</string>
+    <string name="next">next</string>
+    <string name="select_payment_method">select_payment_method</string>
+    <string name="bank_card">bank_card</string>
+    <string name="money_wallet">money_wallet</string>
+    <string name="add_bank_card">add_bank_card</string>
+    <string name="enter_name">enter_name</string>
+    <string name="enter_number">enter_number</string>
+    <string name="enter_month">enter_month</string>
+    <string name="enter_year">enter_year</string>
+    <string name="enter_cvv_num">enter_cvv_num</string>
+    <string name="confirm">confirm</string>
+    <string name="enter_otp_number">enter_otp_number</string>
+    <string name="_0">0</string>
+    <string name="enter">enter</string>
+    <string name="add_number">add_number</string>
+    <string name="phone_number">phone_number</string>
+    <string name="the_request_has_been_successfully_paid">the_request_has_been_successfully_paid</string>
+    <string name="please_keep_a_copy_of_the_receipt">please_keep_a_copy_of_the_receipt</string>
+    <string name="receipt_of_payment">receipt_of_payment</string>
+    <string name="request_number">request_number</string>
+    <string name="date">date</string>
+    <string name="send">send</string>
+    <string name="payment_completed_successfully">payment_completed_successfully</string>
+    <string name="payer_name">payer_name</string>
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="back" translatable="false">back</string>
     <string name="case_x" translatable="false">قضية س</string>
