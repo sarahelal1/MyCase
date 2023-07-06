@@ -38,11 +38,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_menu"
-        android:background="null"
+        android:background="@null"
         app:layout_constraintTop_toTopOf="@id/item"
         app:layout_constraintBottom_toBottomOf="@id/item"
         app:layout_constraintStart_toStartOf="@id/item"
         android:padding="@dimen/_10sdp"
+        android:contentDescription="ll"
         />
 
     <View

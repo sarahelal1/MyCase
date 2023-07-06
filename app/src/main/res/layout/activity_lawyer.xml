@@ -1,77 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".Lawyer_Activity">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="UselessParent">
+    <data>
 
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:ignore="UselessParent">
-
+    </data>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@drawable/app_bar_background"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        tools:context=".profile.Lawyer_Activity">
 
-        <ImageView
-            android:layout_width="wrap_content"
+        <ScrollView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/baseline_arrow_back_24"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            tools:ignore="ContentDescription" />
-
-    </LinearLayout>
+            tools:ignore="UselessParent">
 
 
-            <LinearLayout
-                android:layout_width="300dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent">
 
-                <ImageView
-                    android:layout_width="100dp"
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:layout_marginStart="160dp"
-                    android:layout_marginTop="80dp"
-                    android:contentDescription="TODO"
-                    android:src="@drawable/circle_profile"
-                    tools:ignore="ContentDescription,HardcodedText" />
+                    android:background="@drawable/app_bar_background"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="175dp"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/lawyer_name"
-                    android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_arrow_back_24"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        tools:ignore="ContentDescription" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/specialization"
-                    android:layout_marginStart="180dp"
-                    android:layout_marginTop="10dp"
-                    android:textStyle="bold" />
+                </LinearLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:textSize="20sp"
-                    android:text="@string/general_info"
-                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/lawyer_img"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="80dp"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/circle_profile"
+                        tools:ignore="ContentDescription,HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/lawyer_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:text="@string/lawyer_name"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/spec"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/specialization"
+                        android:layout_marginStart="169dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:textSize="20sp"
+                        android:text="@string/general_info"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:layout_width="50dp"
@@ -80,7 +87,7 @@
                         android:layout_marginTop="10dp"
                         android:src="@drawable/img"
 
-                         />
+                        />
 
                     <ImageView
                         android:layout_width="50dp"
@@ -124,147 +131,154 @@
                         android:textStyle="bold" />
 
                 </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="70dp"
-            android:orientation="vertical"
-            tools:ignore="MissingConstraints"
 
-            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints"
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="280dp"
-            android:text="@string/location"
-            android:textStyle="bold"
-            android:textSize="15sp"
-            />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/street_name"
-                android:textSize="15sp"
-                android:layout_margin="2dp"
-                />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/build_num"
-                    android:textSize="15sp"
-                    android:layout_margin="2dp"
-                    />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/city"
-                    android:textSize="15sp"
-                    android:layout_margin="2dp"
-                    />
-        </LinearLayout>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="@string/lawsuits"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                />
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/num_of_clients"
-                android:textSize="15sp"
-                android:layout_margin="2dp"
-                />
-        </LinearLayout>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="18dp"
-                android:text="@string/experience"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/years_of_experience"
-                    android:textSize="15sp"
-                    android:layout_margin="2dp"
-                    />
-            </LinearLayout>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="47dp"
-                android:text="@string/telephone_num"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/his_phone"
-                    android:textSize="15sp"
-                    android:layout_margin="2dp"
-                    />
-            </LinearLayout>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="18dp"
-                android:text="@string/his_mail"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_mail"
-                    android:textSize="15sp"
-                    android:layout_margin="2dp"
-                    />
-            </LinearLayout>
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="250dp"
-                android:layout_marginTop="38dp"
-                android:src="@drawable/baseline_edit_24"
-                app:tint="@color/white"
-                />
-        </LinearLayout>
+                    >
 
-    </RelativeLayout>
-    </ScrollView>
-</LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="315dp"
+                        android:text="@string/location"
+                        android:textStyle="bold"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/strName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/street_name"
+                            android:textSize="13sp"
+                            />
+
+                        <EditText
+                            android:id="@+id/buidingNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/build_num"
+                            android:textSize="13sp"
+                            />
+
+                        <EditText
+                            android:id="@+id/city"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/city"
+                            android:textSize="13sp"
+                             />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lawsuits"
+                        android:textStyle="bold"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/clients_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/num_of_clients"
+                            android:textSize="13sp"
+                             />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/experience"
+                        android:textStyle="bold"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/experience"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/years_of_experience"
+                            android:textSize="13sp"
+                             />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:text="@string/telephone_num"
+                        android:textStyle="bold"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/phone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/his_phone"
+                            android:textSize="13sp"
+                             />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/his_mail"
+                        android:textStyle="bold"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/lawyer_email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_mail"
+                            android:textSize="13sp"
+                             />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/prof_data"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="50dp"
+                        android:text="@string/save_prof_data" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>
 
 
 

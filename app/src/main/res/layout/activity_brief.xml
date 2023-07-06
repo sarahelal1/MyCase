@@ -5,49 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BriefActivity">
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.MyCase.AppBarOverlay"
-        android:background="@drawable/app_bar_background"
-        app:layout_constraintTop_toTopOf="parent"
-        >
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            app:popupTheme="@style/Theme.MyCase.PopupOverlay" >
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/layout_sign"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                >
-
-                <TextView
-                    android:id="@+id/cont_sign"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/brief"
-                    android:textColor="@color/white"
-                    android:textSize="30sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.502"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.308" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </androidx.appcompat.widget.Toolbar>
-    </com.google.android.material.appbar.AppBarLayout>
     <LinearLayout
         android:id="@+id/settings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="5dp"
         app:layout_constraintTop_toTopOf="parent"
         >
 

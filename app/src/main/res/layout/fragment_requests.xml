@@ -6,43 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".requests.RequestsFragment">
 
-    <TextView
-        android:id="@+id/txt_request"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/navy_blue"
-        android:padding="@dimen/_13sdp"
-        android:paddingEnd="@dimen/_25sdp"
-        android:text="@string/requests"
-        android:textColor="@color/white"
-        android:textSize="@dimen/_20ssp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@id/btn_menu"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/btn_menu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
-        android:padding="@dimen/_5sdp"
-        android:src="@drawable/ic_menu"
-        app:layout_constraintBottom_toBottomOf="@+id/txt_request"
-        app:layout_constraintEnd_toEndOf="@id/txt_request"
-        app:layout_constraintTop_toTopOf="@+id/txt_request" />
-
-    <ImageButton
-        android:id="@+id/btn_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="null"
-        android:padding="@dimen/_10sdp"
-
-        android:src="@drawable/baseline_arrow_back"
-        app:layout_constraintBottom_toBottomOf="@+id/txt_request"
-        app:layout_constraintStart_toStartOf="@id/txt_request"
-        app:layout_constraintTop_toTopOf="@+id/txt_request" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_requests_type"
@@ -54,7 +17,7 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txt_request"
+      app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/requests_type" />
 
 
